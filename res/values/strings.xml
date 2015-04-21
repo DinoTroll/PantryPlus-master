@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name"></string>
+    <string name="action_settings">Settings</string>
+    <string name="hintSearchTerm">Enter ingredients</string>
+    <string name="ic_search">Search</string>
+    <string name="ic_favorites">Favorite Recipes</string>
+    <string name="ic_calendar">Add Calendar Item</string>
+    <string name="ic_pantry">Add Pantry Item</string>
+    <string name="ic_facebook">Share on Facebook</string>
+    <string name="tvRecipeName">Name of the recipe</string>
+    <string name="tvRecipe">Name of the recipe</string>
+    <string name="tvCuisine">Cuisine</string>
+    <string name="tvCourse">Course of the meal</string>
+    <string name="tvFlavors">Flavor of the recipe</string>
+    <string name="tvRating">Rating of the recipe</string>
+    <string name="tvTime">Prepparation time</string>
+    <string name="lvIngredients">List of Ingredients</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_search_recipe">SearchRecipeActivity</string>
+    <string name="title_activity_recipe_details">RecipeDetailsActivity</string>
+    <string name="title_activity_favorite_recipe">FavoriteRecipeActivity</string>
+    <string name="title_activity_recipe_search">RecipeSearchActivity</string>
+    <string name="title_activity_favorite_recipe_list">FavoriteRecipeListActivity</string>
+
+</resources>

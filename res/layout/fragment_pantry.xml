@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Ingredient Name"
+        android:textAlignment="center"
+        android:id="@+id/ingredient"
+        android:layout_gravity="center" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/add"
+        android:textColor="#ff44b2bb"
+        android:textAlignment="center"
+        android:text="Add"
+        android:layout_below="@+id/ingredient"
+        android:clickable="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/view"
+        android:textColor="#ff44b2bb"
+        android:textAlignment="center"
+        android:layout_below="@+id/add"
+        android:text="View Pantry"
+        android:clickable="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchSelected"
+        android:textColor="#ff44b2bb"
+        android:textAlignment="center"
+        android:text="Search Selected"
+        android:layout_below="@+id/ingredient"
+        android:clickable="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cancelbtn"
+        android:textColor="#ff44b2bb"
+        android:textAlignment="center"
+        android:layout_below="@+id/view"
+        android:text="Close"
+        android:clickable="true" />
+
+   <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:id="@+id/pantryListView"
+       android:layout_below="@+id/cancelbtn"
+       android:layout_centerHorizontal="true" />
+    <!-- -->
+
+</LinearLayout>

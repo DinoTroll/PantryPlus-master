@@ -1,0 +1,48 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+
+   <item android:id="@+id/ic_search"
+          android:orderInCategory="5"
+          android:title="Search"
+          android:icon="@drawable/ic_search"
+          android:showAsAction="ifRoom|collapseActionView"
+          android:actionLayout="@layout/activity_home"
+          android:actionViewClass="com.actionbarsherlock.widget.SearchView" />
+   
+   <item android:id = "@+id/ic_calendar"
+       	  android:orderInCategory="6"
+       	  android:title="Calendar Task"
+       	  android:icon="@drawable/calendar"
+    	  android:showAsAction="ifRoom|collapseActionView"
+          android:actionLayout="@layout/activity_home"
+          android:actionViewClass="com.actionbarsherlock.widget.SearchView" />
+   
+   <item android:id = "@+id/ic_facebook"
+       	  android:orderInCategory="7"
+       	  android:title= "Share On Facebook"
+       	  android:icon="@drawable/facebook"
+       	  android:showAsAction="ifRoom|collapseActionView"
+          android:actionLayout="@layout/activity_home"
+          android:actionViewClass="com.actionbarsherlock.widget.SearchView" />
+   
+   <item android:id = "@+id/ic_pantry"
+       	  android:orderInCategory="8"
+       	  android:title="Pantry"
+       	  android:showAsAction="ifRoom|collapseActionView"
+          android:actionLayout="@layout/activity_home"
+          android:actionViewClass="com.actionbarsherlock.widget.SearchView" />
+       	  
+       	  
+   
+    <item android:id="@+id/ic_favorites"
+          android:icon="@drawable/ic_favorites"
+          android:title="@string/ic_favorites"
+          android:onClick="onClickFavorites"
+          android:showAsAction="ifRoom"/>
+      
+</menu>	

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.yummlyclient"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:name="com.activeandroid.app.Application"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="AA_DB_NAME"
+            android:value="recipe.db" />
+        <meta-data
+            android:name="AA_DB_VERSION"
+            android:value="6" />
+        <meta-data
+            android:name="AA_DB_NAME"
+            android:value="favoriteRecipe.db" />
+        <meta-data
+            android:name="AA_DB_VERSION"
+            android:value="6" />
+
+        <activity
+            android:name="com.android.yummlyclient.activities.HomeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity android:name="com.android.yummlyclient.activities.MyCalendarActivity" >
+        </activity>
+        <activity android:name="com.android.yummlyclient.activities.RecipeDetailsActivity" >
+        </activity>
+        <activity
+            android:name="com.android.yummlyclient.activities.PantryFragment" >
+        </activity>
+        <activity android:name="com.facebook.android.AndroidFacebookSample" > </activity>
+        <activity android:name="com.facebook.android.BaseDialogListener" > </activity>
+        <activity android:name="com.facebook.android.BaseRequestListener" > </activity>
+        <activity android:name="com.facebook.android.FacebookConnector" > </activity>
+        <activity android:name="com.facebook.android.SessionStore" > </activity>
+        <activity
+            android:name="com.android.yummlyclient.activities.FavoriteRecipeActivity"
+            android:label="@string/title_activity_favorite_recipe" >
+        </activity>
+        <activity
+            android:name="com.android.yummlyclient.activities.RecipeSearchActivity"
+            android:label="@string/title_activity_recipe_search" >
+        </activity>
+        
+    </application>
+
+</manifest>

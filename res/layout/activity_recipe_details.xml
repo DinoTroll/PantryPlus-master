@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".Pantry" >
+
+    <FrameLayout
+        android:id="@+id/flTopFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp" >
+
+        <fragment
+            android:id="@+id/fragmentTop"
+            android:name="com.android.yummlyclient.fragments.RecipeDetailsTopFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/fragment_top" />
+
+    </FrameLayout>
+
+    <!-- FrameLayout
+        android:id="@+id/flMiddleFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/flTopFragment" >
+
+        <fragment
+            android:id="@+id/fragmentMiddle"
+            android:name="com.android.yummlyclient.fragments.RecipeDetailsMiddleFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/fragment_middle" />
+
+    </FrameLayout-->
+
+    <FrameLayout
+        android:id="@+id/flBottomFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="350dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/flTopFragment" >
+
+        <fragment
+            android:id="@+id/fragmentBottom"
+            android:name="com.android.yummlyclient.fragments.RecipeDetailsBottomFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/fragment_bottom" />
+
+    </FrameLayout>
+
+</RelativeLayout>

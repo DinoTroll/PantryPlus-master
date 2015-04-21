@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/confirm"
+        android:textColor="#ff44b2bb"
+        android:textAlignment="center"
+        android:text="Confirm"
+        android:layout_toLeftOf="@+id/cancel"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cancel"
+        android:textColor="#ff44b2bb"
+        android:layout_toRightOf="@+id/confirm"
+        android:textAlignment="center"
+        android:text="Cancel"
+        android:layout_weight="0.04"/>
+</LinearLayout>
